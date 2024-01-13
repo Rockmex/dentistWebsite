@@ -9,6 +9,13 @@
     flex-direction: column;
 }
 
+.container-vertical-3{
+    display: flex;
+    flex-direction: column;
+	width: 90%;
+	padding-bottom: 20px;
+}
+
 .container-vertical-text-image{
 	padding-top: 15%;
 	padding-bottom: 10%;
@@ -25,7 +32,7 @@
 	width: 75px;
 }
 
-.rounded-circle {
+.rounded-circle-lg {
 	height: 200px;
 	width: 200px;
 }
@@ -49,9 +56,10 @@
 	background-color: rgb(110, 180, 194);
 	border-radius: 50px;
 	color: white;
-	padding-left: 25px;
-	padding-right: 25px;
-
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .btn-custom:hover {
@@ -209,4 +217,34 @@
 	#insurance-options{
 		margin-right: 30px;
 	}
+}
+
+.text-sky-blue {
+	color: var(--sky-blue);
+}
+
+.text-comment {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-highlighted {
+	background-color: var(--sky-blue);
+}
+
+.icon-star-yellow {
+	color: rgb(251, 188, 4);
+}
+
+:root {
+	--sky-blue: rgb(197,241,247);
+}
+
+.img-logo {
+	width: 44px;
+	height: 44px;
+}
+
+.rounded-circle-sm {
+	height: 125px;
+	width: 125px;
 }
