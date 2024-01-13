@@ -72,3 +72,141 @@
 .path2 {
 	fill: #003149;
 }
+
+.navbar{
+	background-color: white;
+	padding: 0;
+}
+.nav-logo{
+	width:60px;
+}
+#brand1::after{
+    content: "\a";
+    white-space: pre;
+}
+
+#brand2::before{
+    content: "\a";
+}
+
+.navbar-brand{
+	font-family: serif; 
+	font-size: 21px;
+	font-weight: bold;
+	color:rgb(1, 35, 52);
+	display: inline-block;
+	max-height: 3rem;
+	line-height: 1.5rem;
+	position:relative;
+	top:16px;
+}
+.nav-link{
+	color:rgb(1, 35, 52);
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.nav-link:hover {
+	color:rgb(106, 170, 179) !important;
+}
+
+.dropdown-item{
+	color:rgb(1, 35, 52);
+	font-weight: 500;
+}
+
+.dropdown-item:hover {
+	color:rgb(106, 170, 179) !important;
+}
+
+
+.footer-links:hover {
+	color:rgb(106, 170, 179) !important;
+}
+
+.contact-info {
+	color: rgb(106, 170, 179);
+}
+
+.navbar-book:hover {
+	background-color: rgb(67, 118, 125) !important;
+}
+
+
+.navbar-toggler{
+	border: none;
+	font-size: 1.25rem;
+}
+
+
+
+@media (500px <= width < 768px) {
+
+	.footer-logo-div {
+		display:flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#links-container{
+		margin-left: 20px;
+	}
+
+	.nav-logo{
+		margin-left: 20px;
+	}
+
+	.navbar-book{
+		margin-top: 15px;
+	}
+}
+
+@media (768px <= width < 992px) {
+
+	.footer-logo-div {
+		display:flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.nav-logo{
+		margin-left: 40px;
+	}
+
+	.navbar-book{
+		margin-top: 15px;
+	}
+
+}
+
+@media (992px <= width < 1200px) {
+
+	.footer-logo-div {
+		display:flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.nav-logo{
+		margin-left: 40px;
+	}
+	.navbar-book{
+		margin-top: 15px;
+	}
+
+
+}
+
+@media (min-width:1200px) {
+
+	.navbar-book{
+		margin-right: 20px;
+	}
+
+	.nav-logo{
+		margin-left: 40px;
+	}
+	
+	#insurance-options{
+		margin-right: 30px;
+	}
+}
