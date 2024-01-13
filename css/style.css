@@ -21,7 +21,7 @@
 }
 
 .clickable-image {
-	height: 70px;
+	height: 71px;
 	width: 75px;
 }
 
@@ -57,4 +57,18 @@
 .btn-custom:hover {
 	background-color:rgb(106, 170, 179);
 	color: white;
+}
+
+.p-center {
+	font-size: 15px; 
+	text-align: center; 
+	vertical-align: middle;
+}
+
+.path1 {
+	fill: #6AAAB3;
+}
+
+.path2 {
+	fill: #003149;
 }
